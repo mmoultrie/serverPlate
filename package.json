@@ -1,5 +1,5 @@
 {
-  "name": "serverplate",
+  "name": "serverPlate",
   "version": "0.0.1",
   "description": "template for server",
   "main": "app.js",
@@ -9,7 +9,10 @@
   "author": "mmoultrie",
   "license": "ISC",
   "devDependencies": {
+    "body-parser": "^1.15.2",
     "express": "^4.14.0",
+    "nodemailer": "^2.6.4",
+    "nodemailer-smtp-transport": "^2.7.2",
     "pg": "^6.1.0",
     "sequelize": "^3.25.1"
   }
